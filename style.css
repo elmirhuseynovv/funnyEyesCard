@@ -12,7 +12,6 @@ body {
   background: #0062ad;
 }
 .card {
-  width: 458px;
   width: max-content;
   padding: 18px;
   background-color: #fbf0dc;
@@ -74,4 +73,13 @@ body {
   color: white;
   font-family: sans-serif;
   font-size: 10px;
+}
+
+
+
+/* Telefon */
+@media screen and (max-width:458px) {
+  .card {
+    width: 100%;
+  }
 }

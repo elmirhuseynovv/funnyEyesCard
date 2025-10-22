@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0062ad;
+}
+.card {
+  width: 458px;
+  width: max-content;
+  padding: 18px;
+  background-color: #fbf0dc;
+  margin-bottom: 20px;
+}
+.cardEyes {
+  height: 438px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  background-color: #0062ad;
+  padding: 6px;
+}
+.cardTexts {
+  padding-block: 9px;
+}
+.colorCode {
+  font-family: inter;
+  font-weight: 700;
+  font-size: 64px;
+  color: #000;
+}
+.name {
+  font-family: inter;
+  font-size: 24px;
+  color: #000;
+  text-decoration: none;
+}
+.street {
+  font-family: inter;
+  font-size: 14px;
+  color: #000;
+  margin-top: 55px;
+}
+.eye {
+  width: 204px;
+  height: 204px;
+  background: #fbf0dc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.iris {
+  width: 76px;
+  height: 76px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  transition: transform 0.05s;
+}
+
+.webLink {
+  margin-top: 14px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 10px;
+}
